@@ -10,7 +10,8 @@ export default {
     extend: {},
     colors:{
       'red-pink' : '#FF4655',
-      'white' : colors.white
+      'white' : colors.white,
+      'paia' : '#867166',
     }
   },
   plugins: [],

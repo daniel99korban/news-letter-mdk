@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Button({text, event}){
     return(
-        <button onClick={event} type="submit" className="flex w-200 justify-center rounded-md bg-red-pink px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+        <button onClick={event} type="submit" className="flex w-52 h-16 justify-center rounded-sm bg-red-pink px-2 py-5 text-md font-semibold text-white shadow-sm border-2 border-paia">
             {text}
         </button>
     )
